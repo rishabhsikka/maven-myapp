@@ -27,16 +27,19 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-    <repository>
-      <id>myapp-releases</id>
-      <name>myapp-releases</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/myapp-releases/</url>
-    </repository>
+
+  <repository>
+    <id>vcard-release</id>
+    <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-release</url>
+  </repository>
+  
     <snapshotRepository>
-      <id>myapp-snapshots</id>
-      <name>myapp-snapshots</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/myapp-snapshots/</url>
-    </snapshotRepository>
+    <id>vcard-snapsot</id>
+    <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-snapsot</url>
+  </snapshotRepository>
+  
 </distributionManagement>
+
+
 
 </project>
