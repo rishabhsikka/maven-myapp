@@ -33,13 +33,11 @@
     <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-release</url>
   </repository>
   
-    <snapshotRepository>
-    <id>vcard-snapsot</id>
-    <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-snapsot</url>
+
+  <snapshotRepository>
+    <id>vcard-snaphot</id>
+    <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-snaphot</url>
   </snapshotRepository>
-  
 </distributionManagement>
-
-
 
 </project>
