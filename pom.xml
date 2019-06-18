@@ -36,7 +36,7 @@
     <snapshotRepository>
     <id>vcard-snapshot</id>
     <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-snapshot</url>
-  </snapshotRepository>
+    </snapshotRepository>
   
 </distributionManagement>
 
