@@ -1,18 +1,17 @@
-cat settings.xml 
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                       https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-      <id>myapp-snapshots</id>
-      <username>myapp-user</username>
-      <password>myapp-user</password>
+      <id>vcard-snapshot</id>
+      <username>rishabh</username>
+      <password>rishabh</password>
     </server>
     <server>
-      <id>myapp-releases</id>
-      <username>myapp-user</username>
-      <password>myapp-user</password>
+      <id>vcard-release</id>
+      <username>rishabh-user</username>
+      <password>rishabh-user</password>
     </server>
   </servers>
   <profiles>
