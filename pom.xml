@@ -41,6 +41,10 @@
   
 </distributionManagement>
 
-
+<scm>     
+    <url>https://github.com/rishabh20111990/maven-myapp/tree/master/src</url>   
+    <connection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</connection>
+ <developerConnection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</developerConnection>
+    </scm>
 
 </project>
