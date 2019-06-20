@@ -40,12 +40,14 @@
   </snapshotRepository>
   
 </distributionManagement>
-
+<properties>
+   <project.scm.id>git</project.scm.id>
+</properties>
 <scm>     
     <url>https://github.com/rishabh20111990/maven-myapp/tree/master/src</url>   
     <connection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</connection>
  <developerConnection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</developerConnection>
    <tag>HEAD</tag>
-    </scm>
+</scm>
 
 </project>
