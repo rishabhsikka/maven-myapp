@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <name>my-app</name>
   <repositories>
     <repository>
@@ -44,7 +44,7 @@
     <url>https://github.com/rishabh20111990/maven-myapp/tree/master/src</url>   
     <connection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</connection>
  <developerConnection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</developerConnection>
-   <tag>HEAD</tag>
+   <tag>my-app-1.5</tag>
     </scm>
 
 </project>
