@@ -1,5 +1,5 @@
 # Maven
-- task: InstallFortifySCA@6
+task: InstallFortifySCA@6
   inputs:
     InstallerPath: '/home/ec2-user'
     LicenseFile: '/home/ec2-user/azagent/externals/tee/license.html'
