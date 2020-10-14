@@ -7,11 +7,6 @@
   <name>my-app</name>
   <repositories>
     <repository>
-      <id>my-repo2</id>
-      <name>public</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
-    </repository>
-    <repository>
       <id>my-repo1</id>
       <name>your custom repo</name>
       <url>http://maven.apache.org</url>
@@ -26,19 +21,7 @@
     </dependency>
   </dependencies>
 
-<distributionManagement>
 
-  <repository>
-    <id>vcard-release</id>
-    <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-release</url>
-  </repository>
-  
-    <snapshotRepository>
-    <id>vcard-snapshot</id>
-    <url>http://10.128.0.3:8081/nexus/content/repositories/vcard-snapshot</url>
-  </snapshotRepository>
-  
-</distributionManagement>
 <properties>
    <project.scm.id>git</project.scm.id>
 </properties>
