@@ -24,6 +24,8 @@
 
 <properties>
    <project.scm.id>git</project.scm.id>
+   <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
 <scm>     
     <url>https://github.com/rishabh20111990/maven-myapp/tree/master/src</url>   
@@ -31,5 +33,6 @@
  <developerConnection>scm:git:https://github.com/rishabh20111990/maven-myapp.git</developerConnection>
    <tag>HEAD</tag>
 </scm>
+
 
 </project>
